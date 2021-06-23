@@ -1,3 +1,12 @@
+var dotenv = require('dotenv');
+dotenv.config();
+console.log(`Your API key is ${process.env.API_KEY}`);
+
+// You could call it aylienapi, or anything else
+var textapi = process.env.API_KEY;
+// });
+
+var baseURL = "https://api.meaningcloud.com/sentiment-2.1";
 var path = require('path')
 const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')

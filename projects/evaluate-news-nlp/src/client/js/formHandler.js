@@ -3,6 +3,7 @@ function handleSubmit(event) {
 
     // check what text was put into the form field
     let formText = document.getElementById('name').value
+    Client.checkForName(formText) //just added this as per stage 4.2
     checkForName(formText)
 
     console.log("::: Form Submitted :::")
