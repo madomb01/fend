@@ -26,9 +26,10 @@
 
   <main>
     <section>
-      <form class="" onsubmit="return handleSubmit(event)">
-        <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="Name">
-        <input type="submit" name="" value="submit" onclick="return handleSubmit(event)" onsubmit="return handleSubmit(event)">
+      <form class="" onsubmit="return Client.handleSubmit(event)">
+        <input id="name" type="text" name="input" value="" placeholder="Name">
+        <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)"
+        onsubmit="return Client.handleSubmit(event)">
       </form>
     </section>
 
@@ -47,7 +48,10 @@
     if ('serviceWorker' in navigator) {
       // Use the window load event to keep the page load performant
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/service-worker.js');
+        navigator.serviceWorker
+          .register('/service-worker.js')
+          .then(reg => console.log('Service Worker: Registered!'))
+          .catch(err => console.log('Error ===> ', err))
       });
     }
   </script>
