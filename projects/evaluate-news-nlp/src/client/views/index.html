@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <title>Test</title>
-  <link type="text/css" href="../styles/resets.css">
-  <link type="text/css" href="../styles/base.css">
-  <link type="text/css" href="../styles/header.css">
-  <link type="text/css" href="../styles/form.css">
-  <link type="text/css" href="../styles/footer.css">
-  <link type="text/css" href="../styles/footer.css">
+  <link type="text/scss" href="../styles/resets.scss">
+  <link type="text/scss" href="../styles/base.scss">
+  <link type="text/scss" href="../styles/header.scss">
+  <link type="text/scss" href="../styles/form.scss">
+  <link type="text/scss" href="../styles/footer.scss">
+  <link type="text/scss" href="../styles/footer.scss">
   <link rel="shortcut icon" href="#">
 </head>
 
@@ -55,7 +55,7 @@
       // Use the window load event to keep the page load performant
       window.addEventListener('load', () => {
         navigator.serviceWorker
-          .register('/service-worker.js')
+          .register('./service-worker.js')
           .then(reg => console.log('Service Worker: Registered!'))
           .catch(err => console.log('Error ===> ', err))
       });
