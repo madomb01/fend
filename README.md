@@ -1,6 +1,15 @@
 This project uses the Sentiment Analysis feature of MeaningCloud. To analyze a website:
 
-Before running the program, make sure to run npm install, npm run build-dev, and npm run build-prod in the command prompt.
+Before running the program, make sure to run the following in the command prompt:
+
+npm install
+npm install --save-dev mini-css-extract-plugin
+npm install --save-dev jest
+npm install dotenv
+npm run build-dev
+npm run build-prod
+
+as well as obtaining your own MeaningCloud API key and creating a .env file containing your key in the format of API_KEY=XXXXXX
 
 To analyze a website/article, simply copy and paste the website into the "Name" field and press the "Submit" button. Results may take a moment to appear, so please be patient.
 
