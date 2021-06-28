@@ -1,4 +1,8 @@
-This project uses the Sentiment Analysis feature of MeaningCloud. To analyze a website, simply copy and paste the website into the "Name" field and press the "Submit" button. Results may take a moment to appear, so please be patient.
+This project uses the Sentiment Analysis feature of MeaningCloud. To analyze a website:
+
+Before running the program, make sure to run npm install, npm run build-dev, and npm run build-prod in the command prompt.
+
+To analyze a website/article, simply copy and paste the website into the "Name" field and press the "Submit" button. Results may take a moment to appear, so please be patient.
 
 Results will show in the following order: score_tag, Model, Agreement, Subjectivity, Confidence, and Irony
 
