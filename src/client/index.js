@@ -8,4 +8,4 @@ console.log("CHANGE!!");
 
 export{
   handleSubmit, checkForName
-}
+};
