@@ -20,5 +20,6 @@ This project uses Webpack, Plugins, and the MeaningCloud API. Users will have to
 
 
 Code references:
-https://knowledge.udacity.com/questions/612607
-https://github.com/udacity/fend/tree/refresh-2019
+1. https://knowledge.udacity.com/questions/612607
+2. https://github.com/udacity/fend/tree/refresh-2019
+3. https://stackoverflow.com/questions/5717093/check-if-a-javascript-string-is-a-url
