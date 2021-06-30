@@ -8,6 +8,7 @@ npm install --save-dev jest
 npm install dotenv
 npm run build-dev
 npm run build-prod
+npm start
 
 as well as obtaining your own MeaningCloud API key and creating a .env file containing your key in the format of API_KEY=XXXXXX
 
